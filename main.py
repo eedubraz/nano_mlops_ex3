@@ -37,7 +37,7 @@ def go(config: DictConfig):
         os.path.join(root_path, "process_data"),
         "main",
         parameters={
-            "input_artifact": "iris.csv:v0",
+            "input_artifact": "iris.csv:latest",
             "artifact_name": "clean_data.csv",
             "artifact_type": "clean_data",
             "artifact_description": "Cleaned data"
