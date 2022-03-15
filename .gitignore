@@ -1,0 +1,5 @@
+download_data/wandb/
+process_data/wandb/
+process_data/artifacts/
+mlruns/
+outputs/
